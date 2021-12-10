@@ -6,7 +6,8 @@ namespace SecondModule
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var start = new Starter();
+            start.Run();
         }
     }
 }
